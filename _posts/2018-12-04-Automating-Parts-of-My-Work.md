@@ -1,3 +1,7 @@
+---
+title:  "Automating Parts of My Work"
+---
+
 Much of what modern programmers do is already automated, but I felt I could automate things further and enjoy development loops with even less repetition. The more I automate with bash, the more I understand how others use `vim` or `emacs` as their IDEs&mdash; though I use [VS Code](https://code.visualstudio.com/) for most of my editing. More valued than the small amount of efficiency gained, I enjoy the process of abstracting some specific, repetitive task to the press of a button.
 
 - I wrote [a bash command to switch the local branch to updated master](#switch-the-local-branch-to-updated-master)
