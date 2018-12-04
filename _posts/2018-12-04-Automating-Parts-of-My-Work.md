@@ -1,6 +1,6 @@
 # Automating Parts of My Work
 
-Much of what modern programmers do is already automated, but I felt I could automate things further and enjoy development loops with even less repetition. The more I automate with bash, the more I understand how others use `vim` or `emacs` as their IDEs&mdash; though I use VS Code for most of my editing. More valued than the small amount of efficiency gained, I enjoy the process of abstracting some specific, repetitive task to the press of a button.
+Much of what modern programmers do is already automated, but I felt I could automate things further and enjoy development loops with even less repetition. The more I automate with bash, the more I understand how others use `vim` or `emacs` as their IDEs&mdash; though I use [VS Code](https://code.visualstudio.com/) for most of my editing. More valued than the small amount of efficiency gained, I enjoy the process of abstracting some specific, repetitive task to the press of a button.
 
 - I wrote [a bash command to switch the local branch to updated master](#switch-the-local-branch-to-updated-master)
 - I wrote [a bash command to update all local master branches](#update-all-local-master-branches)
@@ -61,7 +61,7 @@ echo $PR_URL
 /usr/bin/open "$PR_URL"
 ```
 
-A while ago I found GitHub's `hub` program, which I installed with `brew` on Mac. I wrote this script leveraging it because I often find myself with a set of changes on `master` in a local repo, and want to turn them into a new branch with a PR. This script gets me from point A to point B with one command, which takes three arguments:
+A while ago I found GitHub's [`hub`](https://github.com/github/hub#git--hub--github) program, which I installed with `brew` on Mac. I wrote this script leveraging it because I often find myself with a set of changes on `master` in a local repo, and want to turn them into a new branch with a PR. This script gets me from point A to point B with one command, which takes three arguments:
 
 `gitpr name-of-branch "Name of the new Pull Request" "First commit message"`
 
@@ -120,7 +120,7 @@ I like this script, though it only saves a few seconds when I use it--it saves a
 
 ## Terminal status bar showing branch and CI status
 
-In my iTerm2 window I've been enjoying `byobu`, which is a wrapper for `tmux`. I've seen it hiccup a few times but I think behaves well enough. With a little bit of work I wrote some shell scripts that output to the status bar based on the current pane:
+In my iTerm2 window I've been enjoying [`byobu`](http://www.byobu.co/), which is a wrapper for [`tmux`](https://duckduckgo.com/?q=tmux&ia=images&iax=images); I've seen it hiccup a few times but I think behaves well enough. With a little bit of work I wrote some shell scripts that output to the status bar based on the current pane:
 
 - [Current branch name](https://gist.github.com/josephtannenbaum/22aff3968cd58fbbb2c993d8ea097e58) with */+ flags for changes like in VS Code. I also wanted the text to change color based on a diff with the origin branch, but I'm not sure how well that works.
 - [Current branch CI status](https://gist.github.com/josephtannenbaum/c36d96ba40fb4dc65441f451d1494b36) -- I used `hub` and GitHub CI integration to show whether the branch's build is passing, in progress, not started, or failed. This is quicker than opening the specific Pull Request or CI website.
