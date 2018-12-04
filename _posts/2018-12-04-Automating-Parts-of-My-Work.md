@@ -124,3 +124,6 @@ In my iTerm2 window I've been enjoying [`byobu`](http://www.byobu.co/), which is
 
 - [Current branch name](https://gist.github.com/josephtannenbaum/22aff3968cd58fbbb2c993d8ea097e58) with */+ flags for changes like in VS Code. I also wanted the text to change color based on a diff with the origin branch, but I'm not sure how well that works.
 - [Current branch CI status](https://gist.github.com/josephtannenbaum/c36d96ba40fb4dc65441f451d1494b36) -- I used `hub` and GitHub CI integration to show whether the branch's build is passing, in progress, not started, or failed. This is quicker than opening the specific Pull Request or CI website.
+
+
+That's all I've prepared for now. I had to edit some of these scripts for generality, so I can't guarentee all the code will work out of the box. I'm hoping to write more entries about my development experience in the future!
