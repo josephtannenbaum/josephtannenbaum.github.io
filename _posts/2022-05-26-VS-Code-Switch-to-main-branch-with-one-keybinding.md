@@ -2,7 +2,7 @@
 title:  "VS Code: Switch to main branch with one keybinding"
 ---
 
-<img src="{{ site.baseurl }}/images/Screen Shot 2022-05-26 at 11.28.36 AM.png" alt="VS Code" />
+[<img src="{{ site.baseurl }}/images/Screen Shot 2022-05-26 at 11.28.36 AM.png" alt="VS Code" />]({{ site.baseurl }}/images/Screen Shot 2022-05-26 at 11.28.36 AM.png)
 
 `gitmm` script (remember to chmod +x)
 
