@@ -6,4 +6,6 @@ permalink: /about/
 
 ### Contact me
 
-[tannenbau.me](http://tannenbau.me)
+[LinkedIn profile](https://www.linkedin.com/in/joe-tannenbaum/)
+
+[tannenbau.me](https://tannenbau.me)
